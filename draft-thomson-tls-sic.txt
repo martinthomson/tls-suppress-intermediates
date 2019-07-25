@@ -4,8 +4,8 @@
 
 TLS                                                           M. Thomson
 Internet-Draft                                                   Mozilla
-Intended status: Standards Track                          March 27, 2019
-Expires: September 28, 2019
+Intended status: Standards Track                           July 25, 2019
+Expires: January 26, 2020
 
 
               Suppressing Intermediate Certificates in TLS
@@ -33,7 +33,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on September 28, 2019.
+   This Internet-Draft will expire on January 26, 2020.
 
 Copyright Notice
 
@@ -53,9 +53,9 @@ Copyright Notice
 
 
 
-Thomson                Expires September 28, 2019               [Page 1]
+Thomson                 Expires January 26, 2020                [Page 1]
 
-Internet-Draft           Suppress Intermediates               March 2019
+Internet-Draft           Suppress Intermediates                July 2019
 
 
 Table of Contents
@@ -109,9 +109,9 @@ Table of Contents
 
 
 
-Thomson                Expires September 28, 2019               [Page 2]
+Thomson                 Expires January 26, 2020                [Page 2]
 
-Internet-Draft           Suppress Intermediates               March 2019
+Internet-Draft           Suppress Intermediates                July 2019
 
 
    A server that receives a value of 1 in the 0xTBD flag from a
@@ -130,7 +130,7 @@ Internet-Draft           Suppress Intermediates               March 2019
 
    This creates an unencrypted signal that might be used to identify
    which clients believe that they have all intermediates.  This might
-   allow cilents to be more effectively fingerprinted by peers and any
+   allow clients to be more effectively fingerprinted by peers and any
    elements on the network path.
 
 5.  IANA Considerations
@@ -153,21 +153,21 @@ Internet-Draft           Suppress Intermediates               March 2019
 
    [TLS-FLAGS]
               Nir, Y., "A Flags Extension for TLS 1.3", draft-nir-tls-
-              tlsflags-01 (work in progress), March 2019.
+              tlsflags-02 (work in progress), July 2019.
 
 6.2.  Informative References
 
    [COMPRESS]
               Ghedini, A. and V. Vasiliev, "TLS Certificate
-              Compression", draft-ietf-tls-certificate-compression-04
-              (work in progress), October 2018.
+              Compression", draft-ietf-tls-certificate-compression-05
+              (work in progress), April 2019.
 
 
 
 
-Thomson                Expires September 28, 2019               [Page 3]
+Thomson                 Expires January 26, 2020                [Page 3]
 
-Internet-Draft           Suppress Intermediates               March 2019
+Internet-Draft           Suppress Intermediates                July 2019
 
 
 Author's Address
@@ -221,4 +221,4 @@ Author's Address
 
 
 
-Thomson                Expires September 28, 2019               [Page 4]
+Thomson                 Expires January 26, 2020                [Page 4]
