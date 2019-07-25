@@ -83,7 +83,7 @@ generate a fatal illegal_parameter alert.
 # Security Considerations
 
 This creates an unencrypted signal that might be used to identify which clients
-believe that they have all intermediates.  This might allow cilents to be more
+believe that they have all intermediates.  This might allow clients to be more
 effectively fingerprinted by peers and any elements on the network path.
 
 
